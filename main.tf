@@ -7,7 +7,7 @@ resource "aws_instance" "server2" {
   instance_type = "t2.micro"
         subnet_id = "subnet-0af4ed161792cc2a3"
   tags = {
-    Name = "Mohan-server1"
+    Name = "Mohan-server12"
     Env  = "Prod"
   }
 }
